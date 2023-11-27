@@ -1,0 +1,110 @@
+.calc {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(47, 42, 42);
+    margin-left: auto;
+    margin-right: auto;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    width: 500px;
+    height: 630px;
+    border-radius: 8px;
+    border: 1px solid #0d2e40;
+    padding-bottom: 20px;
+}
+
+.numero {
+    display: flex;
+    justify-content: end;
+    margin-top: 8px;
+    align-items: center;
+    text-align: end;
+    background-color: white;
+    width: 96%;
+    height: 80px;
+    padding-right: 8px;
+    border: 1px solid #0d2e40;
+    color: gray;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 1.7rem;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: gray;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 30px;
+    width: 400px;
+    height: 500px;
+
+}
+
+.btn {
+
+    width: 85px;
+    height: 85px;
+    background-color: white;
+
+}
+
+.btn:hover, .btn0 {
+    cursor: pointer;
+}
+
+.cinza {
+    background-color: #c9bdbd;
+    display: flex;
+    color: #434343;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 1.9rem;
+    font-weight: 700;
+}
+
+.escuro {
+    background-color: #d61e1e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.9rem;
+    font-weight: 700;
+    color: white;
+}
+
+.operacao {
+    background-color: rgb(250, 90, 27);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.9rem;
+    font-weight: 700;
+    color: white;
+}
+
+.btn0 {
+
+    width: 190px;
+    height: 85px;
+    border-radius: 8px;
+
+}
+
+.total {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+
+    width: 90%;
+    height: 90px;
+
+
+}
+input{
+    text-align: end;
+}
