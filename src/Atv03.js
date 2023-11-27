@@ -1,14 +1,21 @@
-import Calculadora from "./Components/Calculadora";
-import { Link } from "react-router-dom";
-import "./minhasRotas.css"
-import "./Home.css";
+import Calculator from "./Components/Calculadora/Components/Calculator/Calculator";
+import Button from "./Components/Calculadora/Components/Button/index";
+import Display from "./Components/Calculadora/Components/Visor/Visor";
+import {Link} from "react-router-dom";
 
-export default function Ativ03() {
-    return (
-        <div className="calculadora">
-            <h1>Calculadora</h1>
-            <Calculadora />
+
+function Atv03(){
+    return(
+        <>
+         <h1> Calculadora </h1>
+         <Calculator/>
+         
+         <br />
+         <div className="container">
             <Link to="/" className="menu">Retornar para página Inicial</Link>
-        </div>
-    );
+         </div>
+         
+        </>
+    )
 }
+export default Atv03;

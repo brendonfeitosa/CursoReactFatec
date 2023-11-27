@@ -1,18 +1,8 @@
-import "../../../../Components/Calculadora/styles.css";
-
-
-const Button = ({ children, stilo, onClick, inp }) => {
-
+const Button = ({ label, onClick }) => {
   return (
-    <>
-      {inp ? (
-        <div className="numero">{children}</div>
-      ) : (
-        <div className={stilo} onClick={() => onClick(children)}>
-          {children}
-        </div>
-      )}
-    </>
+    <button className="button" onClick={onClick}>
+      {label}
+    </button>
   );
 };
 

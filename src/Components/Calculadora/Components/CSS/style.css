@@ -1,0 +1,43 @@
+.calculadora {
+    width: 300px; /* Largura da calculadora */
+    margin: 0 auto; /* Centralize a calculadora na página */
+    padding: 50px;
+    border: 3px solid #333;
+    border-radius: 8px;
+    background-color: rgb(39, 36, 36);
+    text-align: center;
+    height: 350px;
+}
+
+.display-container {
+    width: 250px;
+    text-align: right;
+    margin-bottom: 10px;
+}
+
+.visor{
+    width: 500px;
+    height: 100px;
+    font-size: 20px;
+    padding: 5px;
+    margin-top: 0;
+   
+}
+
+.button-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Organiza os botões em 4 colunas */
+    gap: 5px; /* Espaçamento entre os botões */
+    text-align: center;
+}
+
+button {
+    width: 90%; 
+    height: 60px;
+    font-size: 24px;
+    margin: 5px;
+    background-color: #c6821d;
+    border: 1px solid #ef1515;
+    border-radius: 5px;
+    cursor: pointer;
+}
