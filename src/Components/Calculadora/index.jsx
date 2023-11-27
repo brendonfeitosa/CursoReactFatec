@@ -27,7 +27,7 @@ const Calculadora = ()=>{
       if (valor === "" || arrOperacoes.includes(valor[valor.length - 1])) {
         return valor;
       } else {
-        setValor(math.evaluate(valor));
+        /* setValor(math.evaluate(valor)); */
 
      }
     }
